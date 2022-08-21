@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/09BhPnK/rocket-coffee-readme.png" alt="rocket-coffee" width="500"/> <h1></h1> 
+  <img src="https://i.ibb.co/sqp9xFs/rocketcoffee-github-transparent.png" alt="rocket-coffee" width="500"/> <h1></h1> 
 </p>
 
 ## Technologies
