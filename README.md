@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://rocketseat-rocketcoffee.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://rocketseat-rocketcoffee.vercel.app/">
     <img src="https://i.ibb.co/4sZtmsL/rocketcoffee-github-transparent-1.png" alt="rocket-coffee" width="300"/>
   </a>
 </p>
@@ -12,15 +12,8 @@
 
 <p style="display: flex; align-items: center;">
 
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="rocket-coffee" width="30"/>
-  </a>
-  <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-    <img src="https://ionicframework.com/docs/icons/logo-react-icon.png" alt="rocket-coffee" width="30"/>
-  </a>
-
   [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="typescript" width="30"/>](https://www.typescriptlang.org/)
-  [<img src="https://ionicframework.com/docs/icons/logo-react-icon.png" alt="css" width="30"/>](reactjs.org) 
+  [<img src="https://ionicframework.com/docs/icons/logo-react-icon.png" alt="css" width="30"/>](https://reactjs.org)
   [<img src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" alt="nextjs" width="30"/>](https://nextjs.org/) 
   [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" alt="eslint" width="30"/>](https://eslint.org/)
   [<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html" width="30"/>](https://developer.mozilla.org/en-US/docs/Web/HTML)
