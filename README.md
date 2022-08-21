@@ -1,8 +1,8 @@
-<center>
-
-  [<img src="https://i.ibb.co/4sZtmsL/rocketcoffee-github-transparent-1.png" alt="rocket-coffee" width="300"/>](https://rocketseat-rocketcoffee.vercel.app/) 
-
-</center>
+<p align="center">
+  <a href="https://rocketseat-rocketcoffee.vercel.app/">
+    <img src="https://i.ibb.co/4sZtmsL/rocketcoffee-github-transparent-1.png" alt="rocket-coffee" width="300"/>
+  </a>
+</p>
 
 ## **Project Link:**
 [<img src="https://freesewing.dev/brands/vercel.svg" alt="css" width="200"/>](https://rocketseat-rocketcoffee.vercel.app/)
@@ -37,7 +37,6 @@ npm run dev
 # or
 yarn dev
 ```
-<br/>
 
 ## **Objective:**
 - [x] Fundamentals review
