@@ -47,28 +47,30 @@ const Home: NextPage = (): JSX.Element => {
   ]);
 
   const handleSections: Sections[] = menuItens
-    .map((menuItem: menuItem) => {
+    .map((menuItem: menuItem): Sections => {
       return menuItem.sectionName;
     })
-    .filter((value: Sections, index: number, self: Sections[]) => {
+    .filter((value: Sections, index: number, self: Sections[]): boolean => {
       return self.indexOf(value) === index;
     });
 
-  useEffect(() => {
+  useEffect((): void => {
     setSections(handleSections);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <>
       <header>
         <div>
-          <Image
-            src={logo}
-            alt="Picture of the author"
-            width={47}
-            height={50}
-            style={{ paddingRight: 10 }}
-          />
+          <span style={{ paddingRight: 10, paddingTop: 10 }}>
+            <Image
+              src={logo}
+              alt="Picture of the author"
+              width={42}
+              height={50}
+            />
+          </span>
           <h1>
             Rocket<span>Coffee</span>
           </h1>
@@ -84,13 +86,12 @@ const Home: NextPage = (): JSX.Element => {
               menuItem.sectionName == section ? (
                 <li key={index}>
                   <div className="details">
-                    <h3>Waffle Doce</h3>
+                    <h3>{menuItem.productName}</h3>
                     <p className="description">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Earum atque.
+                      {menuItem.productDescription}
                     </p>
                   </div>
-                  <strong className="price">R$37.70</strong>
+                  <strong className="price">R$ {menuItem.price.toFixed(2)}</strong>
                 </li>
               ) : null
             )}

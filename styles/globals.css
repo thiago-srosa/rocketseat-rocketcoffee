@@ -60,6 +60,7 @@ section {
 .price {
   font-size: 17px;
   color: #04d361;
+  width: 150px;
 }
 
 section h2 {
