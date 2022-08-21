@@ -13,7 +13,7 @@ interface menuItem {
   price: number;
 }
 
-const Home: NextPage = () => {
+const Home: NextPage = (): JSX.Element => {
   const [sections, setSections] = useState<Sections[]>([]);
   const [menuItens, setMenuItens] = useState<menuItem[]>([
     {
@@ -46,11 +46,11 @@ const Home: NextPage = () => {
     },
   ]);
 
-  const handleSections = menuItens
-    .map((menuItem) => {
+  const handleSections: Sections[] = menuItens
+    .map((menuItem: menuItem) => {
       return menuItem.sectionName;
     })
-    .filter((value, index, self) => {
+    .filter((value: Sections, index: number, self: Sections[]) => {
       return self.indexOf(value) === index;
     });
 
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
             alt="Picture of the author"
             width={47}
             height={50}
-            style={{paddingRight: 10}}
+            style={{ paddingRight: 10 }}
           />
           <h1>
             Rocket<span>Coffee</span>
@@ -76,11 +76,11 @@ const Home: NextPage = () => {
         <p>Aberto todos os dias. 8h-21h</p>
       </header>
 
-      {sections.map((section, index) => (
+      {sections.map((section: Sections, index: number): JSX.Element => (
         <section key={index}>
           <h2>{section}</h2>
           <ul>
-            {menuItens.map((menuItem, index) =>
+            {menuItens.map((menuItem: menuItem, index: number): JSX.Element | null =>
               menuItem.sectionName == section ? (
                 <li key={index}>
                   <div className="details">
