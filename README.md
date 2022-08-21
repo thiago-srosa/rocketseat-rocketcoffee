@@ -40,7 +40,7 @@ yarn dev
 <br/>
 
 ## **Objective:**
-- [x] Fundamentals review
+A simple project to review fundamentals. Created at [Maratona Explorer](https://lp.rocketseat.com.br/inscricao/maratona-explorer) from [RocketSeat](https://www.youtube.com/c/RocketSeat/videos) 
 <br/><br/>
 
 ## **Features:**
