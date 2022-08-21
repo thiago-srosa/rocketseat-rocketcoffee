@@ -1,5 +1,8 @@
 import type { NextPage } from "next";
+import Image from 'next/image'
 import { useState, useEffect } from "react";
+
+import logo from "../assets/rocket-coffee-logo.png"
 
 type Sections = "Brunch" | "Bebidas";
 
@@ -58,9 +61,18 @@ const Home: NextPage = () => {
   return (
     <>
       <header>
-        <h1>
-          Rocket<span>Coffee</span>
-        </h1>
+        <div>
+          <Image
+            src={logo}
+            alt="Picture of the author"
+            width={47}
+            height={50}
+            style={{paddingRight: 10}}
+          />
+          <h1>
+            Rocket<span>Coffee</span>
+          </h1>
+        </div>
         <p>Aberto todos os dias. 8h-21h</p>
       </header>
 

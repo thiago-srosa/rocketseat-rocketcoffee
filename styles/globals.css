@@ -23,7 +23,13 @@ ul {
 
 header {
   padding: 32px;
-  text-align: center;
+  text-align: center; 
+}
+
+header > div {  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 
 header,
@@ -39,7 +45,7 @@ header h1 {
 }
 
 header h1 span {
-  color: #8257e5;
+  color: #ff0000ff;
 }
 
 header p {
@@ -57,7 +63,7 @@ section {
 }
 
 section h2 {
-  border: 1px solid #8257e5;
+  border: 1px solid #ff0000ff;
   background-color: #3c3c42;
   border-radius: 5px;
   padding: 8px 16px;
