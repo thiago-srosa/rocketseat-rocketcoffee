@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://rocketseat-rocketcoffee.vercel.app/">
+  <a href="https://rocketseat-rocketcoffee.vercel.app/" target="_blank">
     <img src="https://i.ibb.co/4sZtmsL/rocketcoffee-github-transparent-1.png" alt="rocket-coffee" width="300"/>
   </a>
 </p>
@@ -11,6 +11,13 @@
 ## **Technologies:**
 
 <p style="display: flex; align-items: center;">
+
+  <a href="https://www.typescriptlang.org/)" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="rocket-coffee" width="300"/>
+  </a>
+  <a href="https://reactjs.org" target="_blank">
+    <img src="https://ionicframework.com/docs/icons/logo-react-icon.png" alt="rocket-coffee" width="300"/>
+  </a>
 
   [<img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="typescript" width="30"/>](https://www.typescriptlang.org/)
   [<img src="https://ionicframework.com/docs/icons/logo-react-icon.png" alt="css" width="30"/>](reactjs.org) 
