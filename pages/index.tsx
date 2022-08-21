@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 import logo from "../assets/rocket-coffee-logo.png"
 
-type Sections = "Brunch" | "Bebidas";
+type Sections = "Brunch" | "Drinks";
 
 interface menuItem {
   sectionName: Sections;
@@ -18,31 +18,45 @@ const Home: NextPage = (): JSX.Element => {
   const [menuItens, setMenuItens] = useState<menuItem[]>([
     {
       sectionName: "Brunch",
-      productName: "Waffle Doce",
+      productName: "Cake",
       productDescription:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earumatque.",
-      price: 50,
+      price: 10,
     },
     {
-      sectionName: "Bebidas",
-      productName: "Maça Doce",
+      sectionName: "Drinks",
+      productName: "Hot Chocolate",
       productDescription:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earumatque.",
-      price: 37.7,
+      price: 10.99,
     },
     {
-      sectionName: "Bebidas",
-      productName: "Maça Doce",
+      sectionName: "Drinks",
+      productName: "Tea",
       productDescription:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earumatque.",
-      price: 37.7,
+      price: 5.99,
     },
     {
-      sectionName: "Bebidas",
-      productName: "Maça Doce",
+      sectionName: "Brunch",
+      productName: "Donut",
       productDescription:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earumatque.",
-      price: 37.7,
+      price: 5.99,
+    },
+    {
+      sectionName: "Brunch",
+      productName: "Pudding",
+      productDescription:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earumatque.",
+      price: 12.99,
+    },
+    {
+      sectionName: "Drinks",
+      productName: "Smoothie",
+      productDescription:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earumatque.",
+      price: 12.99,
     },
   ]);
 
@@ -75,7 +89,8 @@ const Home: NextPage = (): JSX.Element => {
             Rocket<span>Coffee</span>
           </h1>
         </div>
-        <p>Aberto todos os dias. 8h-21h</p>
+        <p>Open all days</p>
+        <p>8 am to 9 pm</p>
       </header>
 
       {sections.map((section: Sections, index: number): JSX.Element => (
