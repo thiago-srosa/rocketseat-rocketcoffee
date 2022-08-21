@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="https://i.ibb.co/sqp9xFs/rocketcoffee-github-transparent.png" alt="rocket-coffee" width="500"/> <h1></h1> 
+  <img src="https://i.ibb.co/4sZtmsL/rocketcoffee-github-transparent-1.png" alt="rocket-coffee" width="500"/> <h1></h1> 
 </p>
+
+## Project Link
+[rocketseat-rocketcoffee](https://rocketseat-rocketcoffee.vercel.app/) 
+<br/><br/>
 
 ## Technologies
 
